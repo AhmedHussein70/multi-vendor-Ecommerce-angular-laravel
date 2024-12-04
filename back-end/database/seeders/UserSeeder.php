@@ -12,9 +12,9 @@ class UserSeeder extends Seeder
     public function run(): void
     {
         User::create([
-            'name' => 'Mohamed',
-            'email' => 'mmmm@gmail.com', // Fixed email typo ("gmail" instead of "gamil")
-            'password' => Hash::make('123123123'), // Ensure the password is hashed
+            'name' => 'Gogo',
+            'email' => 'gehadgamalgallo@gmail.com', 
+            'password' => Hash::make('123123123'), 
         ]);
     }
 }
